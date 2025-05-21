@@ -17,4 +17,4 @@ try:
     final_price = calculate_discount(price, discount_percent)
     print(f"Final price after discount: {final_price:.2f}")
 except ValueError:
-    print("Invalid input. Please enter numeric values for price and discount percentage.")
+    print("Invalid input. Please enter numeric values for price and discounts percentage.")
